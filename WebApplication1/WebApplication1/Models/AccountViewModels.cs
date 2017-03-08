@@ -23,6 +23,12 @@ namespace WebApplication1.Models
         public bool RememberMe { get; set; }
     }
 
+    public class test
+    {
+        [Required]
+        public string Provider { get; set; }
+
+    }
     public class VerifyCodeViewModel
     {
         [Required]
